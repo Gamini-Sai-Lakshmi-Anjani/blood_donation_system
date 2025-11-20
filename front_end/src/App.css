@@ -1,0 +1,67 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  background-color: #e63946;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.menu {
+  margin: 10px;
+}
+
+.menu button {
+  margin: 5px;
+  padding: 10px 14px;
+  background: #eaeaea;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.menu button:hover {
+  background: #d1d1d1;
+}
+
+
+input, button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 80%;
+}
+
+button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  color: #444;
+}
